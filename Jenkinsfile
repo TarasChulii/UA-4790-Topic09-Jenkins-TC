@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+// Test run from Git Repo
     environment {
         REMOTE_HOST_IPS = "192.168.56.10 192.168.56.11 192.168.56.12"
         REMOTE_USER  = "jenkins"
